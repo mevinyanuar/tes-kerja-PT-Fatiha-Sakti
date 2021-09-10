@@ -1,0 +1,22 @@
+.nav-linkss {
+  color: black;
+  background-color:white;/*will change background-color of element */
+  }
+  
+.home-icon {
+  color: black;
+}
+
+.user-icon {
+  color: black;
+}
+
+.calender-alt {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .menu-list{
+    display: none;
+  }
+}

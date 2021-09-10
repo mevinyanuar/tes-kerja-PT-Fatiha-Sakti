@@ -1,0 +1,89 @@
+.main-wrapper {
+  background-color: rgba(249,249,249,255)
+  ;
+}
+
+.title-text {
+  background-color: #fff;
+}
+
+.title-text h2 {
+  color: rgba(47,190,193,173);
+}
+
+.input-search {
+  margin: 10% auto;
+}
+
+.text-secondary {
+  margin: 10% auto;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pageNumbers li.active{
+  background-color: grey;
+  color:black;
+}
+
+.pageNumbers li {
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pageNumbers li button:hover {
+  background-color: white;
+  color: black;
+}
+
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+.pageNumbers span {
+  font-size: 13px;
+}
+
+.margin-card {
+  margin: 50px;
+}
+.id-personnel {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.id-personnel span{
+  color: rgba(47,190,193,173);
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.add-personel-button {
+  color: rgba(47,190,193,173);
+}
+@media (max-width: 768px) {
+  .input-search  {
+    margin: 0;
+  }
+  .text-secondary {
+    margin: 0;
+  }
+  .margin-card {
+    margin: 0;
+  }
+}

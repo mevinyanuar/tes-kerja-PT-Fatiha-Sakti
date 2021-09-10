@@ -1,0 +1,29 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav h5 span {
+  color: rgba(47,190,193,173);
+}
+
+.circle {
+  border: 1px solid rgb(138, 137, 137);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color:black;
+  font-weight: bolder;
+}
+
+.profile-section {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav h5 {
+    display: none;
+  }
+}
